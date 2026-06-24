@@ -12,7 +12,7 @@ from analyzer.text_analyzer import (
 
 def test_count_words():
     text = "Hola mundo"
-    assert count_words(text) == 1
+    assert count_words(text) == 2
 
 def test_count_characters():
     text = "Hola"
