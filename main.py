@@ -16,7 +16,7 @@ Esta es una prueba.
 Esto es un parrafo.
 """
 
-print("Palabras: ", count_words(text))
+print("Palabrass: ", count_words(text))
 print("Caracteres: ", count_characters(text))
 print("Parrafos: ", count_paragraphs(text))
 print("Oraciones: ", count_sentences(text))
