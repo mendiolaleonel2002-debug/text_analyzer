@@ -1,14 +1,16 @@
-import sys
 import os
+import sys
+
 #Agregar la ruta del paquete
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from analyzer.text_analyzer import (
-    count_words,
     count_characters,
     count_sentences,
-    longest_word
+    count_words,
+    longest_word,
 )
+
 
 def test_count_words():
     text = "Hola mundo"
